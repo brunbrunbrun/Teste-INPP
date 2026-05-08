@@ -16,7 +16,6 @@ O projeto realiza:
 - cálculo de estatísticas básicas;
 - geração de gráficos para visualização dos dados.
 
----
 
 ## Tecnologias utilizadas
 
@@ -24,7 +23,6 @@ O projeto realiza:
 - Pandas
 - Matplotlib
 
----
 
 ## Como rodar o projeto
 
@@ -34,7 +32,6 @@ O projeto realiza:
 git clone https://github.com/brunbrunbrun/Teste-INPP
 ```
 
----
 
 ### 2 - Acesse a pasta do projeto
 
@@ -42,7 +39,6 @@ git clone https://github.com/brunbrunbrun/Teste-INPP
 cd Teste-INPP
 ```
 
----
 
 ### 3 - Crie e ative o ambiente virtual
 
@@ -53,7 +49,6 @@ python -m venv venv
 source venv/Scripts/activate
 ```
 
----
 
 ### 4 - Instale as dependências
 
@@ -61,7 +56,6 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
----
 
 ### 5 - Execute o projeto
 
@@ -69,7 +63,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
 
 ## Justificativa das escolhas técnicas
 
@@ -86,8 +79,6 @@ A biblioteca Matplotlib foi utilizada para a geração dos gráficos e visualiza
 Para o tratamento dos dados faltantes, foi utilizada interpolação linear, por se tratar de uma série temporal com variações graduais entre as medições.
 
 No gráfico de nível do rio e NDVI, foi utilizado eixo duplo (`twinx`) devido às diferenças de escala entre as variáveis analisadas.
-
----
 
 ## Resultados
 
